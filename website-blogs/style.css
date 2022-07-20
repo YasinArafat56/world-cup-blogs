@@ -1,0 +1,150 @@
+/* banner style */
+.banner-section{
+    display: flex;  
+}
+/* font */
+.top-heading{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 150px;
+}
+.details{
+font-size:20px;
+    color: white;
+    padding-left: 50px;
+
+}
+.btn{
+margin-left: 50px;
+background: #DD0000;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 25px;
+gap: 10px;
+color: white;
+
+
+}
+.grid-section{
+    margin-top: 30px;
+    background-color:#161616;
+    width: 280px;
+    height: 180px;
+    margin-left: 40px;
+}
+
+.matchBtn{
+margin-left: 50px;
+background: #FFFFFF;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 40px;
+gap: 10px;
+width: 190px;
+height:50px;
+margin-bottom: 10px;
+margin-top: 2px;
+
+}
+.allBtn{
+   
+margin-left: 50px;
+background: #FFFFFF;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 55px;
+gap: 10px;
+width: 190px;
+height:50px; 
+margin-bottom: 10px;
+}
+.blogBtn{
+    width: 190px;
+height:50px; 
+margin-left: 50px;
+background: #DD0000;
+border-radius: 5px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 65px;
+gap: 10px;
+margin-bottom: 10px;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.main-contrainer{
+    background-color: #FFFFFF;
+    padding: 30px;
+    width: 870px;
+    border-radius: 5px;
+    padding-left: 120px;
+}
+.flex{
+    display:flex;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 24px;
+    grid-column-gap: 24px;
+    width: 250px;
+    height: 362px;
+    left: 1148px;
+    top: 826px;
+    padding-left: 10px;
+    margin-top: 20px
+
+}
+.collection{
+    background-color: white;
+    box-shadow: 2px 5px 10px grey;
+    border-radius: 5px;
+}
+.detail{
+    /* padding-left: 20px; */
+    /* padding-right: 1vh; */
+    padding: 2vh 2vh;
+}
+.collection .banner img{
+    width: 250px;
+height: 175px;
+}
+.icon-flex{
+    display: flex;
+   align-items: center;
+   padding-left: 10px;
+}
+.comment-flex{
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+.flex-item{
+ display: flex;}
