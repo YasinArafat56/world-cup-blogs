@@ -30,6 +30,11 @@ font-size:20px;
     padding: 16px 25px;
     gap: 10px;
     color: white;
+    transition: background-color 1s;
+}
+
+.btn:hover {
+    background-color: aqua;
 }
     
 
@@ -201,7 +206,65 @@ hr{
     align-items: center;
 }
 
+.footer-button{
+    margin-top: 30px;
+    display: none;
+    justify-content: center;
 
-
+    
+}
+.footer-button button{
+    background-color: tomato;
+    padding: 5px 20px;
+}
+@media only screen and (min-width:669px) and (max-width:992px) {
+   .flex{
+    margin-left: 120px;
+    flex-direction:column;
+   } 
+   .collections{
+    grid-template-columns: repeat(2 ,1fr);
+    
+   }
+   .container{
+    width: 500px;
+    margin-left: 110px;
+   }
+   .grid-section{
+    margin-left: 140px;
+   }
+   .footer-button{
+    display: flex;
+   }
+}
+@media only screen and (max-width:668px) {
+    .flex{
+        margin-left: 30px;
+        flex-direction:column;
+       } 
+       .collections{
+        grid-template-columns: repeat(1 ,1fr);
+        
+       }
+       .container{
+        width: 300px;
+        margin-left: 0px;
+       }
+       .grid-section{
+        margin-left: 50px;
+       }
+       
+       .banner-section{
+        flex-direction: column;
+       }
+       .player{
+        width: 300px;
+       }
+       .contact_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+}
 
 
