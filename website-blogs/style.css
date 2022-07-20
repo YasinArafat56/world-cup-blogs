@@ -12,6 +12,8 @@
     padding-left: 50px;
     padding-top: 150px;
 }
+
+
 .details{
 font-size:20px;
     color: white;
@@ -19,18 +21,22 @@ font-size:20px;
 
 }
 .btn{
-margin-left: 50px;
-background: #DD0000;
-border-radius: 5px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 16px 25px;
-gap: 10px;
-color: white;
-
-
+    margin-left: 50px;
+    background: #DD0000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 25px;
+    gap: 10px;
+    color: white;
 }
+    
+
+
+
+
+
 .grid-section{
     margin-top: 30px;
     background-color:#161616;
@@ -46,7 +52,7 @@ border-radius: 5px;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 16px 40px;
+padding: 16px 50px;
 gap: 10px;
 width: 190px;
 height:50px;
@@ -93,13 +99,16 @@ margin-bottom: 10px;
     margin-top: 21px;
     border-radius: 5px;
 }
+.marcelo{
+    padding-bottom: 90px;
+}
 
 .section-title{
     text-align: center;
     margin-bottom: 50px;
     
 }
-.main-contrainer{
+.main-contrainer {
     background-color: #FFFFFF;
     padding: 30px;
     width: 870px;
@@ -115,7 +124,7 @@ margin-bottom: 10px;
     row-gap: 24px;
     grid-column-gap: 24px;
     width: 250px;
-    height: 362px;
+   
     left: 1148px;
     top: 826px;
     padding-left: 10px;
@@ -128,13 +137,12 @@ margin-bottom: 10px;
     border-radius: 5px;
 }
 .detail{
-    /* padding-left: 20px; */
-    /* padding-right: 1vh; */
+
     padding: 2vh 2vh;
 }
 .collection .banner img{
     width: 250px;
-height: 175px;
+    height: 175px;
 }
 .icon-flex{
     display: flex;
@@ -147,4 +155,53 @@ height: 175px;
     padding-left: 60px;
 }
 .flex-item{
- display: flex;}
+ display: flex;
+}
+
+.banner{
+    display: flex;
+}
+
+footer{
+    background-color: #161616;
+}
+footer h5{
+    font-size:40px ;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin-bottom: 20px;
+}
+.contact_info{
+    display: flex; 
+    list-style: none;
+    padding-bottom: 20px;
+    
+}
+.contact_box ul li a{  
+    padding: 20px;
+    color:#B9B9B9;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.contact_box{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
